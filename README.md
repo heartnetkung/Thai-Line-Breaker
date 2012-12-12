@@ -14,13 +14,13 @@ Installation
 Usage
 =====
 The only class that you'd use is ThaiLineBreakingTextView which extends from TextView. It adds 2 additional methods:
-- public void setText2(int/CharSequence) which should be used in replace of setText to process line break and then setText
-- public CharSequence getText2() which would return the text you've set using setText2
+- `public void setText2(int/CharSequence)` which should be used in replace of setText to process line break and then setText
+- `public CharSequence getText2()` which would return the text you've set using setText2
 
 Note: that the use of setText and getText by user should be avoided.
 
-Tips: You can also layout this class is xml as follow <hnk.lib.tlb.ThaiLineBreakingTextView
-            android:id="@+id/result"/>
+Tips: You can also layout this class is xml as follow `<hnk.lib.tlb.ThaiLineBreakingTextView
+            android:id="@+id/result"/>`
 
 Preprocessing
 =============
