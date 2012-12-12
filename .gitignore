@@ -6,8 +6,8 @@
 *.class
 
 # generated files
-bin/
-gen/
+ThaiLineBreaker/bin/
+ThaiLineBreaker/gen/
 
 # Local configuration file (sdk path, etc)
 local.properties

@@ -166,6 +166,7 @@ public class ThaiLineBreakingTextView extends TextView implements
 		 */
 		while (pos < oneLine.length() && count < oneLine.length()) {
 			// TODO trim leading space
+			pos = offsetLeadingSpace(oneLine, pos);
 			int maxText = textPainter.breakText(oneLine, pos, oneLine.length(),
 					true, innerWidth, null);
 			// FIXME troublesome jellybean and correct this function when
@@ -181,6 +182,17 @@ public class ThaiLineBreakingTextView extends TextView implements
 			count++;
 		}
 		return ans;
+	}
+
+	private static int offsetLeadingSpace(String line, int offset) {
+		while (offset < line.length()) {
+			char c = line.charAt(offset);
+			if (Character.isWhitespace(c))
+				offset++;
+			else
+				break;
+		}
+		return offset;
 	}
 
 	/**
