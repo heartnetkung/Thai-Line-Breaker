@@ -18,6 +18,7 @@ The only class that you'd use is ThaiLineBreakingTextView which extends from Tex
 - public CharSequence getText2() which would return the text you've set using setText2
 
 Note: that the use of setText and getText by user should be avoided.
+
 Tips: You can also layout this class is xml as follow <hnk.lib.tlb.ThaiLineBreakingTextView
             android:id="@+id/result"/>
 
