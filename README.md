@@ -5,7 +5,7 @@ This is an Android project that adds Thai word breaking functionality to Android
 - aesthetical modification to dictionary and algorithm customized only for line breaking
 - support ellipsized text
 
-[Here](https://github.com/heartnetkung/Thai-Line-Breaker/blob/master/ThaiLineBreaker/bin/ThaiLineBreaker.apk?raw=true) is the .apk demo 
+[Here](https://github.com/heartnetkung/Thai-Line-Breaker/blob/master/ThaiLineBreaker/download/ThaiLineBreaker.apk?raw=true) is the .apk demo 
 
 Installation
 ============
