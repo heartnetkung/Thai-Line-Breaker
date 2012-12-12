@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="@string/paste"
+            android:lines="8" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/editor"
+            android:layout_below="@+id/editor"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/start" />
+
+        <hnk.seed.thailinebreaker.ThaiLineBreakingTextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editor"
+            android:layout_alignRight="@+id/editor"
+            android:layout_below="@+id/button"
+            android:background="@android:color/darker_gray"
+            android:lines="30"
+            android:maxLines="30"
+            android:paddingBottom="6dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="6dp"
+            android:paddingTop="6dp"
+             />
+    </RelativeLayout>
+
+</ScrollView>
