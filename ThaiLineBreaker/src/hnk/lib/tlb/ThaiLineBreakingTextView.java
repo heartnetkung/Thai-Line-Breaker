@@ -13,7 +13,6 @@ import hnk.lib.tlb.engine.ImmutableInverseTrie;
 import hnk.lib.tlb.engine.ThaiLineBreakerImpl;
 import hnk.lib.tlb.util.ThaiUtil;
 import hnk.lib.tlb.util.Utils;
-import hnk.seed.thailinebreaker.R;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Paint;
@@ -166,7 +165,7 @@ public class ThaiLineBreakingTextView extends TextView implements
 		 * FIXME count < oneLine.length() to prevent infinite loop in jb??
 		 */
 		while (pos < oneLine.length() && count < oneLine.length()) {
-			//TODO trim leading space
+			// TODO trim leading space
 			int maxText = textPainter.breakText(oneLine, pos, oneLine.length(),
 					true, innerWidth, null);
 			// FIXME troublesome jellybean and correct this function when

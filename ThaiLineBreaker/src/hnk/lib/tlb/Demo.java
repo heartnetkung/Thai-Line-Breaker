@@ -1,6 +1,5 @@
 package hnk.lib.tlb;
 
-import hnk.seed.thailinebreaker.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
