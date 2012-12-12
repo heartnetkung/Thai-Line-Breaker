@@ -27,7 +27,7 @@
             android:layout_marginTop="6dp"
             android:text="@string/start" />
 
-        <hnk.seed.thailinebreaker.ThaiLineBreakingTextView
+        <hnk.lib.tlb.ThaiLineBreakingTextView
             android:id="@+id/result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
