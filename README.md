@@ -3,7 +3,7 @@ Thai-Line-Breaker
 This is an Android project that adds Thai word breaking functionality to Android's TextView. Some of its features includes:
 - processing speed with cached dictionary
 - aesthetical modification to dictionary and algorithm customized only for line breaking
-- support ellipsized text
+- auto disabling when ellipsis is applied
 
 [Here](https://github.com/heartnetkung/Thai-Line-Breaker/blob/master/ThaiLineBreaker/download/ThaiLineBreaker.apk?raw=true) is the .apk demo 
 
