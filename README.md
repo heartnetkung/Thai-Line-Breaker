@@ -17,8 +17,11 @@ The only class that you'd use is ThaiLineBreakingTextView which extends from Tex
 - public void setText2(int/CharSequence) which should be used in replace of setText to process line break and then setText
 - public CharSequence getText2() which would return the text you've set using setText2
 
-Note that the use of setText and getText by user should be avoided.
+Note: that the use of setText and getText by user should be avoided.
+Tips: You can also layout this class is xml as follow <hnk.lib.tlb.ThaiLineBreakingTextView
+            android:id="@+id/result"/>
 
 Preprocessing
 =============
-The preprocessing of the dictionary and the dictionary caching is done in another project [here](https://github.com/heartnetkung/LexCleaner-for-Thai-Line-Breaker)
+The preprocessing of the dictionary and the dictionary caching is done in another project [here](https://github.com/heartnetkung/LexCleaner-for-Thai-Line-Breaker). In this project, we only use the cached dict in file res/raw/trie_cache.txt 
+and res/raw/whole_word_cache.txt
